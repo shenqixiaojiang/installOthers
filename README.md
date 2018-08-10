@@ -8,6 +8,6 @@
  make check
  make install
  
- export PATH=$PATH:Your_Path/bin
- export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:Your_Path/lib
+ export PATH=Your_Path/bin:$PATH
+ export LD_LIBRARY_PATH=Your_Path/lib:$LD_LIBRARY_PATH
 ```
