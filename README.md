@@ -31,4 +31,7 @@ yum install boost-doc
 ```
 ./matlab -c ~/Matlab/matlab2018a/Crack/license_standalone.lic 
 ```
-即可启动matlab。
+即可启动matlab。建议在bash文件中使用[alias](http://man.linuxde.net/alias)命令进行设置：
+```
+alias matlab="~/Matlab/2018a_matlab/bin/matlab -c ~/Crack/license_standalone.lic"
+```
