@@ -22,3 +22,7 @@ yum install boost
 yum install boost-devel
 yum install boost-doc
 ```
+# Linux服务器端安装Matlab（非root用户）
+```
+./install -mode silent -agreeToLicense yes -fileInstallationKey 09806-07443-53955-64350-21751-41297 -destinationFolder ~/matlab/2018a/2018amatlab/
+```
