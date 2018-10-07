@@ -23,7 +23,12 @@ yum install boost-devel
 yum install boost-doc
 ```
 # Linux服务器端安装Matlab（非root用户）
-首先将下载好的iso文件打开，将里面的文件copy到某个目录下，打包成zip文件上传到服务器（这里使用的是[2018a版本](http://blog.sciencenet.cn/blog-579748-956945.html)）。
+* 首先将下载好的iso文件打开，将里面的文件copy到某个目录下，打包成zip文件上传到服务器（这里使用的是[2018a版本](http://blog.sciencenet.cn/blog-579748-956945.html)）。
 ```
 ./install -mode silent -agreeToLicense yes -fileInstallationKey 09806-07443-53955-64350-21751-41297 -destinationFolder ~/matlab/2018a/2018amatlab/
 ```
+* 安装完成后，将Crack下的R2018a/bin文件复制到安装目录下，最后在bin目录下使用
+```
+./matlab -c ~/Matlab/matlab2018a/Crack/license_standalone.lic 
+```
+即可启动matlab。
