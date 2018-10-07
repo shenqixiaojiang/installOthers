@@ -27,7 +27,7 @@ yum install boost-doc
 ```
 ./install -mode silent -agreeToLicense yes -fileInstallationKey 09806-07443-53955-64350-21751-41297 -destinationFolder ~/matlab/2018a/2018amatlab/
 ```
-* 安装完成后，将Crack下的R2018a/bin文件复制到安装目录下，最后在bin目录下使用
+* 安装完成后，将Crack/R2018a/bin文件夹复制到安装目录下，最后在安装目录下的bin文件夹下使用
 ```
 ./matlab -c ~/Matlab/matlab2018a/Crack/license_standalone.lic 
 ```
