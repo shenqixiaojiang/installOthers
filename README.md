@@ -35,3 +35,6 @@ yum install boost-doc
 ```
 alias matlab="~/Matlab/2018a_matlab/bin/matlab -c ~/Crack/license_standalone.lic"
 ```
+# Mac版[matlab](https://pan.baidu.com/s/1DMO2HLV-gRbeO_vaJGS5qA)
+
+破解版，直接按照里面的说明即可。
